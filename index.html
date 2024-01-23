@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctic Monkeys</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gudea:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="fixed-top">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="nav-link" href="#comeco"><h1>Arctic Monkeys</h1></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#albuns">Álbuns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+        <section id="comeco">
+            <div class="container" id="carrossel">
+                <div id="carousel-teste" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/pt/1/1c/Arctic_MonkeysWhatever.jpg?20100918210003" alt="">
+                            <div class="carousel-caption">
+                                <h3>Whatever People Say I Am, That's What I'm Not</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/pt/d/dc/Arctic_Monkeys_Favourite.jpg?20100919010249" alt="">
+                            <div class="carousel-caption">
+                                <h3>Favourite Worst Nightmare</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/pt/9/96/Capa-AM_%28oficial%29.jpeg?20130716202327" alt="">
+                            <div class="carousel-caption">
+                                <h3>AM</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/pt/4/4d/Arctic_Monkeys_Humbug.jpg?20100919014730" alt="">
+                            <div class="carousel-caption">
+                                <h3>Humbug</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h3>Suck It And See</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/pt/1/1b/Tranquility_Base_Hotel_%26_Casino_%28AM%29.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h3>Tranquility Base Hotel & Casino</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" data-bs-target="#carousel-teste" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" data-bs-target="#carousel-teste" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carousel-teste" data-bs-slide-to="5"></button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="inicio">
+            <div class="container">
+                <h2>Inicio</h2>
+                <p>O site Arctic Monkeys foi criado com o intuito de manter atualizado todo o repertorio de albuns lancados pela banda. <br>Aqui voce pode acompanhar todos os lancamentos, assim como programacao de shows, vestuario e muito mais!!!
+                </p>
+            </div>
+        </section>
+        <section id="albuns">
+            <div class="container">
+                <h2>Álbuns</h2>
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/1/1c/Arctic_MonkeysWhatever.jpg?20100918210003" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Whatever People Say I Am That's What I'm Not</h4>
+                                <p class="card-text">Album de lancamento da banda, lancado em 23 de Janeiro de 2006.</p>
+                                <a href="https://open.spotify.com/album/50Zz8CkIhATKUlQMbHO3k1?si=kv9rePeCRXWg78RCHlctQA" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/d/dc/Arctic_Monkeys_Favourite.jpg?20100919010249" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Favourite Worst Nightmare</h4>
+                                <p class="card-text">Segundo album da banda, lancado em 23 de Abril de 2007, uma semana apos o single "Brianstorm"</p>
+                                <a href="https://open.spotify.com/album/1XkGORuUX2QGOEIL4EbJKm?si=Z22hgzZ5RxWY_qGgEYJZ5g" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/4/4d/Arctic_Monkeys_Humbug.jpg?20100919014730" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Humbug</h4>
+                                <p class="card-text">Terceiro album da banda apos um breve hiato, lancado em 19 de Agosto de 2019</p>
+                                <a href="https://open.spotify.com/album/5IEoiwkThhRmSMBANhpxl2?si=CwSghZwPRrSdL9UqNjOFNg" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Suck It And See</h4>
+                                <p class="card-text">O quarto album da banda, lancado em 6 de Junho de 2011, com grandes inspiracoes do Brooklyn</p>
+                                <a href="https://open.spotify.com/album/2ym2jcqckXqWeTDoxz3Kst?si=_yGdiRc2TVC1bhSn1qV5jw" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/9/96/Capa-AM_%28oficial%29.jpeg?20130716202327" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">AM</h4>
+                                <p class="card-text">No dia 26 de Fevereiro de 2012 foi lancado o queridinho dos fas: quinto album, entitulado AM</p>
+                                <a href="https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=RxMeM29RT-eH_18yRWjs7Q" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/1/1b/Tranquility_Base_Hotel_%26_Casino_%28AM%29.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Tranquility Base Hotel & Casino</h4>
+                                <p class="card-text">Foi lancado em 11 de Maio de 2018, com uma "pegada" diferente do Arcitc Monkeys que todos conheciam</p>
+                                <a href="https://open.spotify.com/album/7v6FNgLDS8KmaWA1amUtqe?si=QFPqSisJQ7S3_9Q5Jn0O9A" target="_blank" rel="noreferrer noopener" class="btn btn-success ">Ouca</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="row">
+                    <div class="col">
+                        <p>Arctic Monkeys lancou algum album novo? Nos envie!</p>
+                        <form action="">
+                            <label for="nome" class="form-label">Seu Nome:</label>
+                            <input type="text" class="form-control" id="nome">
+
+                            <label for="email" class="form-label">Seu E-mail:</label>
+                            <input type="email" class="form-control" id="email">
+
+                            <label class="form-label">Nos diga o nome do album:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+
+                            <button class="btn btn-success" id="botao-enviar">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por LeoEEP | &copy Todos os direitos reservados</p>
+        <p><a href="https://www.linkedin.com/in/leonardo-oliveira-389a7620b/" target="_blank" rel="noreferrer noopener"><img id="linkedin" src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png"></a>
+        </p>
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

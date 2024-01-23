@@ -1,0 +1,58 @@
+* {
+    font-family: 'Gudea', sans-serif;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    background-color: #bbbbbb;
+    padding-top: 70px;
+}
+
+section#inicio{
+    height: 15vh;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #777777;
+}
+
+.carousel {
+    width: 640px;
+}
+
+h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+#carrossel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#botao-enviar {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#linkedin {
+    height: 40px;
+    width: 40px;
+}
